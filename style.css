@@ -1,0 +1,92 @@
+@font-face{
+  font-family: Roboto;
+  src: url(fonts/Roboto-Refular.ttf);
+}
+  
+  body {
+    box-sizing: border-box;
+    font-family: Roboto;
+  }
+  
+  header {
+    background-color:goldenrod;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+  }
+ 
+nav {
+    float: left;
+    width: 100%;
+    background:#5a4aa5;
+    padding: 15px; 
+  }
+  
+  .button {
+   font-size: 20px;
+   border-radius: 5px;
+   color:black ;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 49%;
+    background-color: #f1f1f1;
+    height: 1000px;
+    
+}
+
+  footer {
+    left: 0;
+    bottom: 0;
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    position: fixed;
+  }
+
+  #aside {
+    background-color: #ffffff;
+    float: right;
+    padding: 10px;
+    width: 45%;
+    height: 1000px;
+    
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+
+.mainPosition { 
+    margin-left: 30px;
+  }
+
+a:link, a:visited {
+  background-color: #5a4aa5;
+  color: white;
+  padding: 14px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;}
+
+  a:hover {
+    color: #93b793;}
+
+  
+p:nth-child(odd){ 
+        color: royalblue;
+      }
+
+      p { font-size: 20px;
+      }
+    h1 {
+      font-size: 40px;
+    }
